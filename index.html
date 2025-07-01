@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#destinos">Destinos</a>
+                <a class="nav-link" href="#ofertas">Ofertas</a>
+                <a class="nav-link" href="#ciudades">Ciudades</a>
+                <a class="nav-link" href="#testimonios">Testimonios</a>
+            </div>
+            </div>
+        </div>
+    </nav>
+
+   
+
+    
+
+<header class="container">
+    <h1 class="text-info">Explorá el Mundo con Nosotros</h1>
+    <p>Tu próxima aventura comienza aquí</p>
+  </header>
+
+  <!-- Sección 1: Destinos populares -->
+  <section id="destinos" class="container">
+    <h2 class="text-danger">Destinos Populares</h2>
+    <p>Descubrí los lugares más visitados por los viajeros: desde las playas del Caribe hasta las ciudades históricas de Europa.</p>
+    <p>Nuestros paquetes incluyen vuelos, hoteles y excursiones guiadas para que disfrutes sin preocuparte por nada.</p>
+  </section>
+
+  <!-- Sección 2: Ofertas especiales -->
+  <section id="ofertas" class="container">
+    <h2 class="text-danger">Ofertas Especiales</h2>
+    <p>Aprovechá nuestras promociones limitadas con descuentos increíbles en destinos seleccionados.</p>
+    <p>Suscribite a nuestro boletín para recibir alertas de precios y oportunidades exclusivas cada semana.</p>
+  </section>
+
+  <section class="container-fluid bg-info medio" id="ciudades"> 
+
+    <article class="row justify-content-around py-4">
+        
+        <div class="card col-3" >
+            <img src="./assets/img/Italy_Rome_Saint-Peters-Square_Travel_Picolo_Skyline_View.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Roma</h5>
+                <p class="card-text">Atracciones imperdibles: Coliseo, Foro Romano, Fontana di Trevi, Vaticano, Basílica de San Pedro, y la Capilla Sixtina.</p>
+                <a href="#" class="btn btn-primary">más info...</a>
+            </div>
+        </div>
+    
+        <div class="card col-3" >
+            <img src="./assets/img/cityscape-view-eiffel-tower-paris-city-skyline-n-paris-france-may-cityscape-view-eiffel-tower-paris-101807049.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Paris</h5>
+                <p class="card-text">Atracciones imperdibles: Torre Eiffel, Museo del Louvre, Catedral de Notre Dame, Campos Elíseos, y el barrio bohemio de Montmartre.</p>
+                <a href="#" class="btn btn-primary">más info...</a>
+            </div>
+        </div>
+    
+        <div class="card col-3 " >
+            <img src="./assets/img/londres.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Londres</h5>
+                <p class="card-text">Atracciones imperdibles: Big Ben, Palacio de Buckingham, London Eye, British Museum, Torre de Londres, y Camden Town.</p>
+                <a href="#" class="btn btn-primary">más info...</a>
+            </div>
+        </div>
+    
+        
+    </article>
+
+
+  </section>
+
+  <!-- Sección 3: Testimonios de viajeros -->
+  <section id="testimonios" class="container mt-3">
+    <h2 class="text-danger">Experiencias de Nuestros Viajeros</h2>
+    <p>"Gracias a esta agencia, tuve el viaje de mis sueños a Machu Picchu. Todo fue perfecto." — Laura M.</p>
+    <p>"Increíble atención y organización. Repetiría sin dudar." — Carlos R.</p>
+  </section>
+
+  <!-- Sección 4: Contacto -->
+  <section id="contacto" class="container">
+    
+    <h2 class="text-danger">Contacto</h2>
+    <p>¿Tenés dudas o querés cotizar tu viaje? Escribinos a <a href="mailto:info@viajes.com">info@viajes.com</a> o llamanos al (03408) 1234-5678.</p>
+    <form action="">
+      <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+
+    <button type="reset" class="btn btn-danger">Cancelar</button>
+
+
+
+    </form>
+
+    
+  
+  </section>
+
+  <footer class="bg-info text-light py-3 mt-3 text-center">
+    <p>&copy; 2025 Agencia de Viajes. Todos los derechos reservados.</p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
+</html>
